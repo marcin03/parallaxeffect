@@ -1,10 +1,6 @@
 /**
  * Created by Marcin on 2018-02-17.
  */
-$('.par1-stump').click(function () {
-    alert("a");
-});
-
 function parallaxStump() {
     // create variables
     var $window = $(window);

@@ -11,6 +11,7 @@ use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
 AppAsset::register($this);
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -37,5 +38,6 @@ AppAsset::register($this);
 </div>
 <?php $this->endBody() ?>
 </body>
+<script>hljs.initHighlightingOnLoad();</script>
 </html>
 <?php $this->endPage() ?>
